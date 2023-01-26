@@ -1,13 +1,9 @@
 import './App.css';
-import Greet from './components/greet';
-import Welcome from './components/welcome';
-import Message from './components/messege';
+import Subject from './Comps/subject';
 function App() {
   return (
     <div className="App">
-     <Greet name="bruce" title="chakraborty"></Greet> 
-     <Welcome/>
-     <Message name="muni"/>
+      <Subject name="ratios"></Subject>
     </div>
   );
 }
